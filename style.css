@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;    
+    color: #545E6C;
+    background: #f5f5f5;
+}
+.main-container{
+    max-width: 1000px;
+    height: 100vh;
+/* height of page */
+    display: flex;
+    margin: 0 auto;
+    border: 0.5px solid #42A8C0;
+    box-shadow: 1px 4px 4px rgba(29, 28, 28, 0.781);
+}
+/* Right side */
+.right {
+    width: 30%;
+    background: #42A8C0;
+    color: #fff;
+}
+/* Profile */
+.profile-container {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0,0,0,0.2);
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.profile-container h1 {
+    margin: 10px 0px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.profile-container h3 {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    font-weight: 300;
+}
+/* Contacts */
+.contact-container {
+    font-size: 14px;
+}
+.contact-list {
+    list-style: none;
+    padding: 20px 30px;
+}
+.contact-list li {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.contact-list a{
+    color: white;
+    text-decoration: none;
+}
+.contact-list i{
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+/* Education */
+.education-container, .lanugages-container{
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.education-container .item{
+    margin: 7px 0px;
+    font-weight: 300;
+}
+.education-container .item h4{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.education-container .item .light {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);;
+}
+
+/* Lanugages */
+
+.lanugages-container .languages-list {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/* Left side */
+.left {
+    width: 70%;
+    background: #fff;
+    padding: 60px;
+}

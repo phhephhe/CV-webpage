@@ -13,7 +13,7 @@ body{
 }
 .main-container{
     max-width: 1000px;
-    height: 100vh;
+    /* height: 100vh; */
 /* height of page */
     display: flex;
     margin: 0 auto;
@@ -70,13 +70,16 @@ body{
 }
 
 /* Education */
-.education-container, .lanugages-container{
+/* containers */
+.education-container,
+.lanugages-container,
+.interests-container{
     padding: 30px;
     font-size: 16px;
     font-weight: 600;
 }
 .education-container .item{
-    margin: 7px 0px;
+    margin: 15px 0px;
     font-weight: 300;
 }
 .education-container .item h4{
@@ -91,17 +94,22 @@ body{
     color: rgba(255,255,255,0.8);;
 }
 
-/* Lanugages */
+/* Lanugages and interests*/
 
-.lanugages-container .languages-list {
+.lanugages-container .languages-list,
+.interests-container .interests-list {
     font-size: 14px;
     font-weight: 300;
+    list-style: none;
 }
-
-
-
-
-
+.lanugages-container .languages-list li,
+.interests-container .interests-list li
+{
+    margin-top: 10px;
+}
+.lanugages-container .languages-list li span {
+    color: rgba(255,255,255,0.6);;
+}
 
 
 
@@ -111,3 +119,49 @@ body{
     background: #fff;
     padding: 60px;
 }
+/* icons */
+
+.projects-container .section-title span {
+    color: #2d7788;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+.icon {
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #2d7788;
+    color: white;
+    font-size: 15px;
+}
+/* project */
+.projects-container .section-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.project {
+    margin: 20px 0px;
+}
+.project a {
+    text-decoration: none;
+    color: #42A8C0;
+    font-size: 16px;
+}
+.project div {
+    margin-top: 10px;
+}
+.project ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-left: 20px;
+}
+.project ul li {
+    font-size: 12px;
+    margin: 5px 0px;
+}
+.project ul li::before {
+    content: "\2022";
+    color: #2d7788;
+    margin-right: 8px;
+  }

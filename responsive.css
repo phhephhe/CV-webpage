@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1040px){
+    body {
+        padding: 0;
+    }
+    .main-container {
+        flex-direction: column-reverse;
+    }
+    .right, .left {
+        width: 100%;
+    }
+    .left{
+        padding: 20px;
+    }
+    .project ul {
+        padding-left: 0px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .project div {
+        margin-top: 0px;
+    }
+    .education-container,
+    .lanugages-container,
+    .interests-container, 
+    .contact-list{
+        padding: 10px 20px;
+    }
+    .cerificates-container{
+        display: none;
+    }
+}

@@ -173,7 +173,10 @@ body{
   }
 /* achievements */
 
-
+.courses {
+    padding-left: 20px;
+    font-size: 14px;
+}
 
 
 /* certificates */

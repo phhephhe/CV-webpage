@@ -120,7 +120,9 @@ body{
     padding: 60px;
 }
 /* icons */
-
+.projects-container {
+    margin: 60px 0px;
+}
 .projects-container .section-title span {
     color: #2d7788;
     font-size: 20px;
@@ -148,34 +150,52 @@ body{
     font-size: 16px;
     margin-top: 5px;
 }
-.project div {
-    margin-top: 10px;
-}
-.project ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding-left: 20px;
-}
-.project ul li {
-    font-size: 12px;
-    margin: 5px 0px;
-}
-.project ul li::before {
-    content: "\2022";
-    color: #2d7788;
-    margin-right: 8px;
-  }
   .project span::before {
     content: "\2023";
     color: #2d7788;
     margin-right: 8px;
   }
+
+
+
+  /* skillset */
+ 
+  .skillset .skill {
+    display: flex;
+    padding: 12px;
+  }
+  .skillset .skill-name {
+    width: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #080808;
+  }
+  .skillset .skill-level {
+    width: 70%;
+    background-color: #d0cece;
+  }
+  .skillset .skill-level .level-bar {
+    width: 90%;
+    height: 100%;
+    background-color: #42a8c0;
+  }
+.learning{
+    color: white;
+    padding-left: 20px; 
+    font-size: 13px;
+    width: 40%;
+}
+
+
+
 /* achievements */
 
 .courses {
     padding-left: 20px;
     font-size: 14px;
+}
+.courses ul li {
+    margin: 10px 0px;
 }
 
 
@@ -191,4 +211,10 @@ body{
     height: 100vh;
     background-position: center;
     background-size: cover;
+}
+
+/* footer */
+.creator {
+    padding-top: 50px; 
+   text-align: center;
 }

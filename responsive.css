@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1040px){
     body {
         padding: 0;
+        padding-bottom: 10px;
     }
     .main-container {
         flex-direction: column-reverse;
@@ -11,14 +12,6 @@
     .left{
         padding: 20px;
     }
-    .project ul {
-        padding-left: 0px;
-        flex-direction: column;
-        gap: 0px;
-    }
-    .project div {
-        margin-top: 0px;
-    }
     .education-container,
     .lanugages-container,
     .interests-container, 
@@ -27,5 +20,8 @@
     }
     .cerificates-container{
         display: none;
+    }
+    .learning{
+        padding-left: 8px;
     }
 }

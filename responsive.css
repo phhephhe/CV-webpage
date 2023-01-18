@@ -18,10 +18,29 @@
     .contact-list{
         padding: 10px 20px;
     }
-    .cerificates-container{
-        display: none;
+    .cerificates-container .certificate{
+        height: 95vh;
     }
     .learning{
         padding-left: 8px;
+    }
+}
+
+
+@media only screen and (min-width: 1041px){
+    .cerificates-container .certificate{
+        height: 88vh;
+    }
+}
+@media only screen and (min-width: 1500px){
+    .cerificates-container .certificate{
+        height: 70vh;
+    }
+}
+
+/* hide certificates */
+@media only screen and (max-width: 800px){
+    .cerificates-container{
+        display: none;
     }
 }

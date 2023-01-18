@@ -13,8 +13,6 @@ body{
 }
 .main-container {
     max-width: 1000px;
-    /* height: 100vh; */
-/* height of page */
     display: flex;
     margin: 0 auto;
     border: 0.5px solid #42A8C0;
@@ -111,8 +109,6 @@ body{
     color: rgba(255,255,255,0.6);;
 }
 
-
-
 /* Left side */
 .left {
     width: 70%;
@@ -155,8 +151,6 @@ body{
     color: #2d7788;
     margin-right: 8px;
   }
-
-
 
   /* skillset */
  

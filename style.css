@@ -180,10 +180,7 @@ body{
     width: 40%;
 }
 
-
-
 /* achievements */
-
 .courses {
     padding-left: 20px;
     font-size: 14px;
@@ -191,7 +188,6 @@ body{
 .courses ul li {
     margin: 10px 0px;
 }
-
 
 /* certificates */
 .cerificates-container{

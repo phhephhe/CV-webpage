@@ -1,68 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    padding: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;    
-    color: #545E6C;
-    background: #f5f5f5;
+body {
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #545e6c;
+  background: #f5f5f5;
 }
 .main-container {
-    max-width: 1000px;
-    display: flex;
-    margin: 0 auto;
-    border: 0.5px solid #42A8C0;
-    box-shadow: 1px 4px 4px rgba(29, 28, 28, 0.781);
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  border: 0.5px solid #42a8c0;
+  box-shadow: 1px 4px 4px rgba(29, 28, 28, 0.781);
 }
 /* Right side */
 .right {
-    width: 30%;
-    background: #42A8C0;
-    color: #fff;
+  width: 30%;
+  background: #42a8c0;
+  color: #fff;
 }
 /* Profile */
 .profile-container {
-    text-align: center;
-    padding: 30px;
-    background: rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
 }
-.profile{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 .profile-container h1 {
-    margin: 10px 0px;
-    font-size: 32px;
-    font-weight: 600;
+  margin: 10px 0px;
+  font-size: 32px;
+  font-weight: 600;
 }
 .profile-container h3 {
-    font-size: 16px;
-    color: rgba(255,255,255,0.6);
-    font-weight: 300;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 300;
 }
 /* Contacts */
 .contact-container {
-    font-size: 14px;
+  font-size: 14px;
 }
 .contact-list {
-    list-style: none;
-    padding: 20px 30px;
+  list-style: none;
+  padding: 20px 30px;
 }
 .contact-list li {
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
 }
-.contact-list a{
-    color: white;
-    text-decoration: none;
+.contact-list a {
+  color: white;
+  text-decoration: none;
 }
-.contact-list i{
+.contact-list i {
   font-size: 18px;
   margin-right: 12px;
 }
@@ -71,140 +71,148 @@ body{
 /* containers */
 .education-container,
 .lanugages-container,
-.interests-container{
-    padding: 30px;
-    font-size: 16px;
-    font-weight: 600;
+.interests-container {
+  padding: 30px;
+  font-size: 16px;
+  font-weight: 600;
 }
-.education-container .item{
-    margin: 15px 0px;
-    font-weight: 300;
+.education-container .item {
+  margin: 15px 0px;
+  font-weight: 300;
 }
-.education-container .item h4{
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-size: 16px;
+.education-container .item h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .education-container .item .light {
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,0.8);;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 /* Lanugages and interests*/
 
 .lanugages-container .languages-list,
 .interests-container .interests-list {
-    font-size: 14px;
-    font-weight: 300;
-    list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+  list-style: none;
 }
 .lanugages-container .languages-list li,
-.interests-container .interests-list li
-{
-    margin-top: 10px;
+.interests-container .interests-list li {
+  margin-top: 10px;
 }
 .lanugages-container .languages-list li span {
-    color: rgba(255,255,255,0.6);;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Left side */
 .left {
-    width: 70%;
-    background: #fff;
-    padding: 60px;
+  width: 70%;
+  background: #fff;
+  padding: 60px;
+}
+.syllogia-container{
+    display: flex;
+    flex-direction:column;
+    gap:12px;
+}
+.syllogiaPage {
+  text-decoration: none;
+  color: #42a8c0;
 }
 /* icons */
 .projects-container {
-    margin: 60px 0px;
+  margin: 60px 0px;
 }
 .projects-container .section-title span {
-    color: #2d7788;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 0.05em;
+  color: #2d7788;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 .icon {
-    padding: 8px;
-    border-radius: 50%;
-    background-color: #2d7788;
-    color: white;
-    font-size: 15px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #2d7788;
+  color: white;
+  font-size: 15px;
 }
 /* project */
-.projects-container .section-title{
-    margin-top: 30px;
-    margin-bottom: 20px;
+.projects-container .section-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .project {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 .project a {
-    text-decoration: none;
-    color: #42A8C0;
-    font-size: 16px;
-    margin-top: 5px;
+  text-decoration: none;
+  color: #42a8c0;
+  font-size: 16px;
+  margin-top: 5px;
 }
-  .project span::before {
-    content: "\2023";
-    color: #2d7788;
-    margin-right: 8px;
-  }
+.project span::before {
+  content: "\2023";
+  color: #2d7788;
+  margin-right: 8px;
+}
 
-  /* skillset */
- 
-  .skillset .skill {
-    display: flex;
-    padding: 12px;
-  }
-  .skillset .skill-name {
-    width: 30%;
-    font-size: 14px;
-    font-weight: 600;
-    color: #080808;
-  }
-  .skillset .skill-level {
-    width: 70%;
-    background-color: #d0cece;
-  }
-  .skillset .skill-level .level-bar {
-    width: 90%;
-    height: 100%;
-    background-color: #42a8c0;
-  }
-.learning{
-    color: white;
-    padding-left: 20px; 
-    font-size: 13px;
-    width: 40%;
+/* skillset */
+
+.skillset .skill {
+  display: flex;
+  padding: 12px;
+}
+.skillset .skill-name {
+  width: 30%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #080808;
+}
+.skillset .skill-level {
+  width: 70%;
+  background-color: #d0cece;
+}
+.skillset .skill-level .level-bar {
+  width: 90%;
+  height: 100%;
+  background-color: #42a8c0;
+}
+.learning {
+  color: white;
+  padding-left: 20px;
+  font-size: 13px;
+  width: 40%;
 }
 
 /* achievements */
 .courses {
-    padding-left: 20px;
-    font-size: 14px;
+  padding-left: 20px;
+  font-size: 14px;
 }
 .courses ul li {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 /* certificates */
-.cerificates-container{
-    margin: 0 auto;
-    max-width: 1000px;
-    border: 0.5px solid #42A8C0;
-    box-shadow: 1px 4px 4px rgba(29, 28, 28, 0.781);
+.cerificates-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  border: 0.5px solid #42a8c0;
+  box-shadow: 1px 4px 4px rgba(29, 28, 28, 0.781);
 }
-.certificate{
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
+.certificate {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 /* footer */
 .creator {
-    padding-top: 50px; 
-   text-align: center;
+  padding-top: 50px;
+  text-align: center;
 }

@@ -115,15 +115,81 @@ body {
   padding: 60px;
 }
 /* work experience */
-.syllogia-container{
-    display: flex;
-    flex-direction:column;
-    gap:12px;
+.work-experience {
+  color: #2d7788;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
-.syllogiaPage {
-  text-decoration: none;
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container ul {
+  margin-left: 12px;
+  list-style: none;
+}
+
+.container ul li {
+  margin: 10px 0;
+}
+
+.container ul li strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.container ul li i {
+  margin-right: 10px;
+  font-size: 18px;
   color: #42a8c0;
 }
+/* Company link */
+
+.company-link {
+  text-decoration: none;
+  color: #42a8c0;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  position: relative;
+}
+
+.company-link i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.transaction-icon {
+  font-size: 18px;
+  color: #007bff;
+  margin-left: 5px;
+}
+
+.hand-icon {
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #007bff;
+  opacity: 0;
+  animation: promptAnimation 4s infinite;
+}
+
+@keyframes promptAnimation {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 /* icons */
 .projects-container {
   margin: 60px 0px;

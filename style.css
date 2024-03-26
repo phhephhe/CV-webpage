@@ -208,7 +208,7 @@ body {
   font-size: 15px;
 }
 /* project */
-.projects-container .section-title {
+/* .projects-container .section-title {
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -225,8 +225,16 @@ body {
   content: "\2023";
   color: #2d7788;
   margin-right: 8px;
+} */
+.app {
+  margin: 12px 0px ;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
-
+.app-title {
+  font-weight: bold;
+}
 /* skillset */
 
 .skillset .skill {

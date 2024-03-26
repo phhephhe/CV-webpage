@@ -13,6 +13,6 @@ function monthesInSyllogia() {
   return diffInMonths;
 }
 
-const workingInSyllogiaCounter = document.getElementById("workingInSyllogia");
-const monthsCount = monthesInSyllogia();
-workingInSyllogiaCounter.textContent = `${monthsCount} months.`;
+// const workingInSyllogiaCounter = document.getElementById("workingInSyllogia");
+// const monthsCount = monthesInSyllogia();
+// workingInSyllogiaCounter.textContent = `${monthsCount} months.`;
